@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+  </head>
+<body>
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light p-md-3" style="background-color: #5EBFCF;">
+        <div class="container">
+            <a href="#" class="navbar-brand">TesLah</a> 
+            <div class="collapse navbar-collapse">
+                <div class="mx-auto"></div>
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link text-white">Beranda</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link text-white">Tes Psikologi</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link text-white">Hubungi Kami</a>
+                    </li>
+                    
+                </ul>
+
+                <ul class="navbar-nav ml-auto">
+                    <button class="btn btn-warning" type="submit">Masuk</button>
+                </ul>
+                
+
+            </div>
+        </div>
+
+    </nav> <br><br><br><br>
+
+    <div class="container">
+        <br>
+        <div id="comment-form-section" class="container-fluid ">
+            <div class="row">
+              <div class="col-6">
+                <ul id="comment-list" class="list-group list-group-flush mt-5 overflow-auto" style="height:450px; list-style: none;">
+                  <li class="list-group-item d-flex justify-content-between align-items-start">
+                    <div class="card w-100 border-primary">
+                      <div class="card-body">
+                        <h5 class="fw-bold text-capitalize">Puas</h5>
+                        <p class="card-text">Dengan mengerjakan tes disini saya merasa lebih tenang</p>
+                  
+                      </div>
+                  </li>
+                  <li class=" list-group-item d-flex justify-content-between align-items-start">
+                    <div class="card w-100 border-primary">
+                      <div class="card-body">
+                        <h5 class="fw-bold text-capitalize">Cukup</h5>
+                        <p class="card-text">Saya rasa ini cukup untuk mengisi waktu luang saya</p>
+                  
+                      </div>
+                  </li>
+                  <li class=" list-group-item d-flex justify-content-between align-items-start">
+                    <div class="card w-100 border-primary">
+                      <div class="card-body">
+                        <h5 class="fw-bold text-capitalize">Sangat Puas</h5>
+                        <p class="card-text">Terimakasih saya sudah merasa lebih baik</p>
+                  
+                      </div>
+                  </li>
+                  <li class=" list-group-item d-flex justify-content-between align-items-start">
+                    <div class="card w-100 border-primary">
+                      <div class="card-body">
+                        <h5 class="fw-bold text-capitalize">Cukup</h5>
+                        <p class="card-text">Mantap sih</p>
+                  
+                      </div>
+                  </li>
+                </ul>
+              </div>
+              <div class="col-6"><br><br>
+                <form id="comment-form">
+                  <div class="mb-3">
+                    <label class="form-label">Berikan komentarmu terhadap test yang baru saja kamu lakukan</label>
+                    <select class="form-select" aria-label="Default select example" id="input-komentar" >
+                      <option value="Sangat Puas">Sangat Puas</option>
+                      <option value="Puas">Puas</option>
+                      <option value="Cukup">Cukup</option>
+                      <option value="Buruk">Buruk</option>
+                    </select>
+                 
+                  </div>
+                  <div class="mb-3">
+                    <label  class="form-label">Berikan komentarmu terhadap test yang baru saja kamu lakukan</label>
+                    <textarea
+                      name="comment"
+                      id="input-saran"
+                      rows="5"
+                      class="form-control"
+                     required></textarea>
+                  </div>
+                  <div>
+                    <button id="btn-submit" type="submit" class="btn btn-primary">
+                      Kirim Penilaian
+                    </button>
+                    
+                  </div>
+                </form>
+              </div>
+            </div>
+        </div>
+          
+      </div>
+
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path fill="#5ebfcf" fill-opacity="1" d="M0,256L80,240C160,224,320,192,480,197.3C640,203,800,245,960,234.7C1120,224,1280,160,1360,128L1440,96L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"></path>
+      </svg>
+    
+  
+      <!-- Optional JavaScript; choose one of the two! -->
+  
+      <!-- Option 1: Bootstrap Bundle with Popper -->
+      <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+        crossorigin="anonymous"
+      ></script>
+  
+      <!-- Option 2: Separate Popper and Bootstrap JS -->
+      <script>
+        // let konten = [];
+        const form = document.getElementById("comment-form");
+        const komen = document.getElementById("input-komentar")
+        const saran = document.getElementById("input-saran")
+        const elCommentList = document.querySelector('#comment-list');
+
+        form.addEventListener("submit", (event) =>{
+          event.preventDefault(), submit()
+        })
+
+        function submit(){
+          let komentar = komen.value;
+          let saranKritik = saran.value;
+
+          let li = document.createElement('li')
+          li.className = "list-group-item d-flex justify-content-between align-items-start"
+
+          let div1 = document.createElement('div')
+          div1.className = "card w-100 border-primary"
+
+          let div2 = document.createElement('div')
+          div2.className = "card-body"
+          div1.appendChild(div2)
+
+          let div3 = document.createElement('h5')
+          div3.className = "fw-bold text-capitalize"
+          div3.textContent = komentar
+          div2.appendChild(div3)
+
+          let p1 = document.createElement('p')
+          p1.className = "card-text"
+          p1.textContent = saranKritik
+          div2.appendChild(p1)
+
+          li.appendChild(div1)
+          elCommentList.prepend(li)
+                  
+                 
+          form.reset() 
+
+          alert("Terimakasih Atas Penilaiannya")
+        }
+        
+      </script>
+</body>
+</html>
