@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/64d58efce2.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+    <title>TesLah</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="forms-container">
+        <div class="signin-signup">
+          <form action="#" class="sign-in-form">
+            <h2 class="title1">Hai,</h2>
+            <h2 class="title">Selamat Datang</h2>
+            <div class="input-field">
+              <i class="fas fa-user"></i>
+              <input type="email" placeholder="Email" required />
+            </div>
+            <div class="input-field">
+              <i class="fas fa-lock"></i>
+              <input type="password" placeholder="Kata sandi" required />
+            </div>
+            <input type="submit" value="Login" class="btn solid" id="button2"/>
+          </form>
+          <form action="#" class="sign-up-form">       
+            <h1 class="title">Daftar Sekarang</h1>
+              <h5 class="done" >Sudah punya akun?<b><a href="" style="text-decoration:none">Masuk</a></b></h5> 
+            <label for="lname">Nama</label>
+            <div class="input-field">
+              <i class="fas fa-user"></i>
+              <input type="text" placeholder="Masukkan Nama " id="fname" name="fname"/>
+            </div>
+            <label for="kota">Kota Domisili</label>
+            <div class="input-field">
+              <i class="fas fa-city"></i>
+              <input type="text" placeholder="Masukkan Kota Domisili" id="kota" name="kota" />
+            </div> 
+            <label for="emaill">Email</label>
+            <div class="input-field">
+              <i class="fas fa-envelope"></i>
+              <input type="email" placeholder="Masukkan Email" id="email" name="email"/>
+            </div>
+            <label for="sandi">Kata sandi</label>
+            <div class="input-field">
+              <i class="fas fa-lock"></i>
+              <input type="password" placeholder="Masukkan sandi" id="sandi" name="sandi"/>
+            </div>
+            <input type="submit" class="btn" id="tombol" value="Daftar" />
+          </form>
+        </div>
+      </div>
+      <div class="panels-container">
+        <div class="panel left-panel">
+          <div class="content">
+            <h3>Silahkan mendaftar</h3>
+            <p>
+              Buat akunmu secara gratis dan cepat !
+            </p>
+            <button class="btn transparent" id="sign-up-btn">
+              Daftar
+            </button>
+          </div>
+          <img src="img/login.svg" class="image" alt="" />
+        </div>
+        <div class="panel right-panel">
+          <div class="content">
+            <h1 id="Judul">TesLah</h1>
+          </div>
+          <img src="img/sign.png" class="image" alt="" />
+        </div>
+      </div>
+    </div>
+    <script src="./app.js"></script>
+    <script src="./app2.js"></script>
+    
+   
+  </body>
+</html>
