@@ -36,6 +36,11 @@ elBtnSubmit.addEventListener("click", function(e) {
  elBtnSubmit.addEventListener("click", function(e) {
  if (passwordValidator.test(elInputPassword.value)) {
   alert(" Pendaftaran Berhasil")
+  elInputPassword.value = ""
+  elInputEmail.value = ""
+  elInputName.value = ""
+  elInputCity.value = ""
+ 
 }  else {
 alert("Tolong masukan Kata Sandi sesuai dengan ketentuan");
 }
