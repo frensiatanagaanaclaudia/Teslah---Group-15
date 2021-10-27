@@ -82,7 +82,7 @@ function quizResult() {
   resultBoX.querySelector(".total-question").innerHTML = quiz.length;
   resultBoX.querySelector(".total-score").innerHTML = totalScore + " / " + 10;
   console.log(totalScore);
-  if (totalScore >= 1 && totalScore <= 3.5) {
+  if (totalScore >= 0 && totalScore <= 3.5) {
     console.log("rendah");
     resultBoX.querySelector(".description").innerHTML = "Stress Tingkat Rendah";
   } else if (totalScore >= 4 && totalScore <= 6.5) {
