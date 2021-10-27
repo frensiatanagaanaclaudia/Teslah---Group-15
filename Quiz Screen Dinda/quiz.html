@@ -28,10 +28,18 @@
 		<div class="question-number"></div>
 		<div class="question-text"></div>
 		<div class="option-container">
-			<div class="option" onclick="answer('TP', 0)">Tidak pernah</div>
-			<div class="option" onclick="answer('KK', 1)">Kadang-kadang</div>
-			<div class="option" onclick="answer('SR', 1.5)">Sering</div>
-			<div class="option" onclick="answer('SSR', 2)">Sangat Sering</div>
+			<div class="option" onclick="answer('TP', 0, 'option1')" id="option1">
+				Tidak pernah
+			</div>
+			<div class="option" onclick="answer('KK', 1, 'option2')" id="option2">
+				Kadang-kadang
+			</div>
+			<div class="option" onclick="answer('SR', 1.5, 'option3')" id="option3">
+				Sering
+			</div>
+			<div class="option" onclick="answer('SSR', 2, 'option4')" id="option4">
+				Sangat Sering
+			</div>
 		</div>
 		<div class="next-question-button">
 			<button type="button" class="btn" onclick="next()">Selanjutnya</button>
