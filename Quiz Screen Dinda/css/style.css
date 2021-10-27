@@ -227,4 +227,17 @@ body {
 
 .result-box .btn {
     margin-top: 20px;
+    margin-left: 32px;
+}
+
+.nilai {
+    padding: 15px 45px;
+    background-color: #FFCD4F;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+    align-items: center ;
 }
